@@ -2,12 +2,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
 }
 
-.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+body {
+  background: #f9f9f9;
+  color: #222;
 }
 
 
@@ -42,4 +46,46 @@
 
 .hero-overlay h1 span{
   color: #00bfa6;
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+
+/* ///////////////////////// */
+/*////////////// header   ///////*/
+
+.header {
+  background: #fff;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logo span {
+  color: #00bfa6;
+}
+
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #262626;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  border: none;
+  background: #00bfa6;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
 }
